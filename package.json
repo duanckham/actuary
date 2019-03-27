@@ -1,10 +1,10 @@
 {
-  "name": "deductive",
+  "name": "actuary",
   "version": "1.0.1",
-  "description": "Deductive",
+  "description": "Actuary",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duanckham/deductive.git"
+    "url": "git+https://github.com/duanckham/actuary.git"
   },
   "author": "Duanckham",
   "license": "Apache-2.0",
@@ -13,9 +13,9 @@
     "async": "^2.6.2"
   },
   "bugs": {
-    "url": "https://github.com/duanckham/deductive/issues"
+    "url": "https://github.com/duanckham/actuary/issues"
   },
-  "homepage": "https://github.com/duanckham/deductive#readme",
+  "homepage": "https://github.com/duanckham/actuary#readme",
   "devDependencies": {},
   "scripts": {}
 }
