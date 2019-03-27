@@ -1,15 +1,21 @@
 {
   "name": "deductive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deductive",
   "repository": {
     "type": "git",
-    "url": "https://github.com/duanckham/deductive.git"
+    "url": "git+https://github.com/duanckham/deductive.git"
   },
   "author": "Duanckham",
   "license": "Apache-2.0",
   "main": "index.js",
   "dependencies": {
     "async": "^2.6.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/duanckham/deductive/issues"
+  },
+  "homepage": "https://github.com/duanckham/deductive#readme",
+  "devDependencies": {},
+  "scripts": {}
 }
