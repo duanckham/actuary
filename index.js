@@ -1,4 +1,5 @@
 const async = require('async');
+const _ = require('lodash');
 
 function mixParameters(parameters) {
   return parameters.reduce((item, property) => {
@@ -8,7 +9,7 @@ function mixParameters(parameters) {
   });
 }
 
-module.exports = (parameters, equation, referee, concurrency = 10) => {
+exports.calculate = (parameters, equation, referee, concurrency = 10) => {
   let parametersCollection = mixParameters(parameters);
   let bestGrade = 0;
   let bestParameters = [];
@@ -38,4 +39,8 @@ module.exports = (parameters, equation, referee, concurrency = 10) => {
       resolve(bestParameters);
     };
   });
+};
+
+exports.range = (from, to, step) => {
+  return _.range(from, to, step);
 };

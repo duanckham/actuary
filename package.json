@@ -1,6 +1,6 @@
 {
   "name": "actuary",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Actuary",
   "repository": {
     "type": "git",
@@ -10,7 +10,8 @@
   "license": "Apache-2.0",
   "main": "index.js",
   "dependencies": {
-    "async": "^2.6.2"
+    "async": "^2.6.2",
+    "lodash": "^4.17.11"
   },
   "bugs": {
     "url": "https://github.com/duanckham/actuary/issues"
