@@ -23,7 +23,7 @@ exports.calculate = (parameters, equation, referee, concurrency = 10) => {
       parameters: _parameters,
       done: callback => {
         return result => {
-          if (!bestParameters.length || referee(bestGrade, result)) {
+          if (!bestParameters.length || referee(bestGrade, result, _parameters)) {
             bestGrade = result;
             bestParameters = _parameters;
           }
